@@ -1,0 +1,59 @@
+/* Global app styles
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Center content and limit width */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Basic header styles */
+h1, h2, h3 {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar styling (basic) */
+nav {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer styling */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Basic card for research or user */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+} 

@@ -1,0 +1,29 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #333;
+} 
